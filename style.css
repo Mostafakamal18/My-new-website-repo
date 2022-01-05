@@ -1,13 +1,21 @@
 body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0%;
+   
 }
-section{
+.flex-container{
     display: flex;
+    margin-bottom: 100px;
+   
 }
 .half-width{
     width: 50%;
-    padding-left: 5%;
+    padding-left:5% ;
+   
+}
+.half-width img{
+    width: 100%;
+
 }
 .orange{
     color: orangered;
@@ -15,4 +23,43 @@ section{
 .banner-menu{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.Button{
+    background-color: gray;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+.drem-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat:no-repeat ;
+    background-position: right;
+    
+}
+.exp-area{
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.exp-item{
+    width: 50%;
+    padding-left: 5%;
+    margin: 0;
+    margin-left: 10%;
+    box-shadow:18px 30px 40px gray;
+    border-radius: 10px;
+   
+}
+#full-stack{
+    border-left: 5px solid;
+
+    border-image:linear-gradient(blue, rgb(243, 14, 26));
+    border-image-slice:1 ;
+}
+#low-stock{
+    border-left: 5px solid;
+    border-image:linear-gradient(green, red) ;
+    border-image-slice: 1;
 }
